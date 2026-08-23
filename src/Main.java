@@ -6,14 +6,9 @@ public class Main {
         System.out.println("Estado inicial do sistema:");
         gerenciador.listarTarefas();
 
-        // =====================================================
-        // TESTE DA FEATURE A — ADICIONAR TAREFA
-        // Integrante A poderá testar sua funcionalidade aqui.
-        // Exemplo, depois de implementar:
-        //
-        // gerenciador.adicionarTarefa("Revisar Pull Requests");
-        //
-        // =====================================================
+        gerenciador.adicionarTarefa("Revisar Pull Requests");
+        gerenciador.adicionarTarefa("Commit final das alterações");
+        gerenciador.adicionarTarefa("Orar para que não quebre a aplicação");
 
 
         // =====================================================
