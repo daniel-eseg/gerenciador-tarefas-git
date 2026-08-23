@@ -46,6 +46,7 @@ public class GerenciadorTarefas {
         boolean tarefaRemovida = false;
         for (int i = 0; i < tarefas.size(); i++) {
             if (tarefas.get(i) == tarefa) {
+                System.out.printf("%nTarefa removida: %s%n", tarefas.get(i));
                 tarefas.remove(i);
                 tarefaRemovida = true;
             }

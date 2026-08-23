@@ -15,15 +15,7 @@ public class Main {
         //
         // =====================================================
 
-
-        // =====================================================
-        // TESTE DA FEATURE B — REMOVER TAREFA
-        // Integrante B poderá testar sua funcionalidade aqui.
-        // Exemplo, depois de implementar:
-        //
-        // gerenciador.removerTarefa("Estudar Git");
-        //
-        // =====================================================
+        gerenciador.removerTarefa("Revisar Pull Requests");
 
         System.out.println("\nEstado final do sistema:");
         gerenciador.listarTarefas();
