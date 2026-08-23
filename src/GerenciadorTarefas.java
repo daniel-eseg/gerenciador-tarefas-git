@@ -23,14 +23,10 @@ public class GerenciadorTarefas {
         }
     }
 
-    // =========================================================
-    // FEATURE A — ADICIONAR TAREFA
-    // Integrante A deverá implementar sua funcionalidade aqui.
-    // Sugestão de assinatura:
-    //
-    // public void adicionarTarefa(String tarefa)
-    //
-    // =========================================================
+    public void adicionarTarefa(String tarefa){
+        tarefas.add(tarefa);
+        System.out.println("\nTarefa adicionada: "+tarefa);
+    }
 
 
     // =========================================================
