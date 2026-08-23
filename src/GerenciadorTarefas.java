@@ -41,4 +41,16 @@ public class GerenciadorTarefas {
     // public boolean removerTarefa(String tarefa)
     //
     // =========================================================
+
+    public boolean removerTarefa(String tarefa) {
+        boolean tarefaRemovida = false;
+        for (int i = 0; i < tarefas.size(); i++) {
+            if (tarefas.get(i) == tarefa) {
+                tarefas.remove(i);
+                tarefaRemovida = true;
+            }
+        }
+
+        return tarefaRemovida;
+    }
 }
